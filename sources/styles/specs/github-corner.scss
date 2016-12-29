@@ -4,6 +4,15 @@
   right: 0;
   zoom: 1.25;
   z-index: 1;
+  outline: 0 !important;
+
+  path:not([class]) {
+    transition: fill .3s ease;
+  }
+
+  &:focus path:not([class]) {
+    fill: $oc-gray-8;
+  }
 
   path {fill: $oc-gray-6}
 
@@ -11,8 +20,9 @@
     fill: $oc-gray-1;
   }
 
-  &:hover .octo-arm{
-    animation: octocat-wave 560ms ease-in-out;
+  &:hover .octo-arm,
+  &:focus .octo-arm {
+    animation: octocat-wave 560ms .1s ease-in-out;
   }
 
   @media (max-width: 500px) {
