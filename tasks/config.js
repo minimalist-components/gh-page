@@ -7,8 +7,8 @@ module.exports = {
     dest: './public/',
   },
   styles: {
-    src: './sources/styles/app/*.scss',
-    watch: './sources/styles/app/**/*.scss',
+    src: './sources/styles/*.scss',
+    watch: './sources/styles/**/*.scss',
     dest: './dist/',
   },
   demo: {
