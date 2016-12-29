@@ -1,6 +1,6 @@
 {
   "name": "mn-gh-page",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Style for gh pages from minimalist",
   "main": [
     "dist/mn-gh-page.css"
