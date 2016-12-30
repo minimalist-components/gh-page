@@ -2,7 +2,7 @@ import browserSync from 'browser-sync'
 
 module.exports = {
   views: {
-    src: './sources/views/*.jade',
+    src: './sources/views/index.jade',
     watch: './sources/views/**/*.jade',
     dest: './public/',
   },

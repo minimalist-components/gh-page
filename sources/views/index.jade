@@ -8,4 +8,25 @@ body
   include github-corner
 
   .layout-fullscreen.layout-centered    
-    p content
+    p demo here
+    
+  .layout-container.docs
+    //- p Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla.
+
+    mn-code.js.
+      // simple javavscript
+      console.log('hello')
+
+    p Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla.
+
+    mn-code.js.
+      playSong(50)
+      // => 'NanNanNanNanNanNanNanNanNanNanNanNanNanNanNanNanNanNanNanNan Batman!!'
+
+      function playSong(n=10) {
+        'Nan'.repeat(n) + ' Batman!!'
+      }
+
+    p Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla.
+
+  script(src='vendor.js')
