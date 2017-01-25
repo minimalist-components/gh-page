@@ -4,6 +4,7 @@
   "version": "0.0.13",
   "description": "Inspired in [angular material layout](https://material.angularjs.org/latest/layout/introduction), this library help you to develop responsive layouts on top of CSS3 flexbox.",
   "scripts": {
+    "start": "scripts/start.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
