@@ -10,6 +10,7 @@ module.exports = {
     src: './sources/styles/*.scss',
     watch: './sources/styles/**/*.scss',
     dest: './dist/',
+    output: 'mn-gh-page.css',
   },
   demo: {
     src: './sources/styles/demo/*.scss',
