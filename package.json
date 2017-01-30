@@ -1,5 +1,6 @@
 {
   "name": "mn-gh-page",
+  "private": true,
   "version": "0.0.1",
   "description": "Style for github pages from minimalist",
   "scripts": {
